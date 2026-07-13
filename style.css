@@ -5,7 +5,7 @@
 }
 .container{
     width: 90%;
-    max-width: 1200px;
+    max-width: 1279px;
     margin: auto;
 }
 nav{
@@ -41,10 +41,6 @@ nav ul li a{
     margin-top: 20px;
 }
 .overlay{
-    background:rgba(0, 0, 0, 60)
-    width:100%;
-    height:100%;
-
     display:flex;
     justify-content:center;
     align-items:center;
@@ -80,4 +76,56 @@ nav ul li a{
     font-weight: 600;
     border: 1px solid black;
   
+}
+.speakers{
+    padding: 90px;
+    margin: auto;
+  
+}
+section h2{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.speaker-grid{
+     
+     align-items: center;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+    
+}
+
+.card{
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+   
+}
+.card img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    
+
+}
+.card-content{
+
+    padding:25px;
+
+}
+
+.card-content h5{
+
+    color:#2f5bff;
+    margin-bottom:10px;
+
+}
+.card-content h3{
+
+    margin-bottom:10px;
+
 }

@@ -17,9 +17,11 @@ nav{
 nav ul{
     display: flex;
     gap: 35px;
+    list-style-type: none;
 }
 nav ul li a{
-    font-size: 18px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
     
 }
 .btn{
@@ -29,4 +31,53 @@ nav ul li a{
     padding: 10px 20px;
     font-weight: 600;
 
+}
+.hero-parent{
+    background-image: url(images/banner.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+}
+.overlay{
+    background:rgba(0, 0, 0, 60)
+    width:100%;
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+.paragraph{
+    color: white;
+    width: 800px;
+    
+}
+.shadow{
+    color: white;
+    opacity: 80%;
+}
+.paragraph h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+.hero-parent-btn{
+    background-color: blue;
+    color: white;
+    padding: 14px 45px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+  
 }
